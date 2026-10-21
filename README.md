@@ -36,6 +36,7 @@ python tools/<name>.py --selftest  # 跑内置自测
 | [trie_filter](tools/trie_filter.py) | Trie 敏感词/关键词过滤：最长匹配、逐位置贪心遮罩 | `python tools/trie_filter.py --selftest` |
 | [minhash_dedup](tools/minhash_dedup.py) | MinHash 近似 Jaccard 文档去重（字符 shingle，确定性可复现） | `python tools/minhash_dedup.py --selftest` |
 | [retry_backoff](tools/retry_backoff.py) | 调 API 的重试/指数退避封装（异常类型过滤，sleep 可注入离线测试） | `python tools/retry_backoff.py --selftest` |
+| [secret_masker](tools/secret_masker.py) | 日志密钥/凭证脱敏：Bearer/JWT/sk- key/键值对/Cookie | `python tools/secret_masker.py --selftest` |
 
 ## 设计约定
 
