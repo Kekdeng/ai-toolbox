@@ -28,6 +28,7 @@ python tools/<name>.py --selftest  # 跑内置自测
 | [pii_masker](tools/pii_masker.py) | 中文 PII 脱敏粗筛：手机号/身份证/邮箱/银行卡/IP → 占位符 | `python tools/pii_masker.py --selftest` |
 | [tfidf_similarity](tools/tfidf_similarity.py) | 零模型文本相似度/粗排：TF-IDF（中文按字+bigram）+ 余弦 | `python tools/tfidf_similarity.py --selftest` |
 | [ngram_lm](tools/ngram_lm.py) | 字符级 n-gram 语言模型：训练/困惑度/采样生成（加 k 平滑） | `python tools/ngram_lm.py --selftest` |
+| [sse_parser](tools/sse_parser.py) | LLM 流式输出解析/回放：SSE 事件 → JSON payload → 增量文本拼接 | `python tools/sse_parser.py --selftest` |
 
 ## 设计约定
 
