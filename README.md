@@ -25,6 +25,7 @@ python tools/<name>.py --selftest  # 跑内置自测
 | [kv_cache_memory](tools/kv_cache_memory.py) | LLM 推理显存估算：权重 + KV cache（GQA 感知，含常见模型预设） | `python tools/kv_cache_memory.py --selftest` |
 | [text_chunker](tools/text_chunker.py) | RAG 文本切块：固定窗口+重叠 / 递归分隔符（无损可还原） | `python tools/text_chunker.py --selftest` |
 | [json_repair](tools/json_repair.py) | 修复 LLM 输出的近似 JSON：围栏/废话/尾逗号/单引号/注释/智能引号/Python 字面量 | `python tools/json_repair.py --selftest` |
+| [pii_masker](tools/pii_masker.py) | 中文 PII 脱敏粗筛：手机号/身份证/邮箱/银行卡/IP → 占位符 | `python tools/pii_masker.py --selftest` |
 
 ## 设计约定
 
