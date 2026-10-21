@@ -22,6 +22,7 @@ python tools/<name>.py --selftest  # 跑内置自测
 |---|---|---|
 | [bpe_tokenizer](tools/bpe_tokenizer.py) | 最小字节级 BPE 分词器（训练/编码/解码，GPT 系分词核心算法） | `python tools/bpe_tokenizer.py --selftest` |
 | [sampling](tools/sampling.py) | LLM 解码采样：temperature / top-k / top-p（nucleus）/ 贪心 | `python tools/sampling.py --selftest` |
+| [kv_cache_memory](tools/kv_cache_memory.py) | LLM 推理显存估算：权重 + KV cache（GQA 感知，含常见模型预设） | `python tools/kv_cache_memory.py --selftest` |
 
 ## 设计约定
 
