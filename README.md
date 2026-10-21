@@ -33,6 +33,7 @@ python tools/<name>.py --selftest  # 跑内置自测
 | [chat_template](tools/chat_template.py) | 消息列表 → 各家 prompt 模板渲染（ChatML/Llama3/Alpaca） | `python tools/chat_template.py --selftest` |
 | [edit_distance](tools/edit_distance.py) | Levenshtein 编辑距离 + 确定性对齐路径回放 + 归一化相似度 | `python tools/edit_distance.py --selftest` |
 | [topk_rerank](tools/topk_rerank.py) | 多路检索融合重排：RRF/加权 RRF/top-k（同分稳定可复现） | `python tools/topk_rerank.py --selftest` |
+| [trie_filter](tools/trie_filter.py) | Trie 敏感词/关键词过滤：最长匹配、逐位置贪心遮罩 | `python tools/trie_filter.py --selftest` |
 
 ## 设计约定
 
