@@ -38,6 +38,7 @@ python tools/<name>.py --selftest  # 跑内置自测
 | [retry_backoff](tools/retry_backoff.py) | 调 API 的重试/指数退避封装（异常类型过滤，sleep 可注入离线测试） | `python tools/retry_backoff.py --selftest` |
 | [secret_masker](tools/secret_masker.py) | 日志密钥/凭证脱敏：Bearer/JWT/sk- key/键值对/Cookie | `python tools/secret_masker.py --selftest` |
 | [sql_params](tools/sql_params.py) | SQL 参数化 vs 拼接对照（Agent 生成 SQL 的安全底线，LIKE 转义） | `python tools/sql_params.py --selftest` |
+| [password_entropy](tools/password_entropy.py) | 密码强度/熵估算：字符集空间 + Shannon + 弱模式惩罚（离线） | `python tools/password_entropy.py --selftest` |
 
 ## 设计约定
 
