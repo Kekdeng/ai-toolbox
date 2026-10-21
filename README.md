@@ -30,6 +30,7 @@ python tools/<name>.py --selftest  # 跑内置自测
 | [ngram_lm](tools/ngram_lm.py) | 字符级 n-gram 语言模型：训练/困惑度/采样生成（加 k 平滑） | `python tools/ngram_lm.py --selftest` |
 | [sse_parser](tools/sse_parser.py) | LLM 流式输出解析/回放：SSE 事件 → JSON payload → 增量文本拼接 | `python tools/sse_parser.py --selftest` |
 | [token_estimator](tools/token_estimator.py) | 无 tokenizer 的 prompt token/费用粗估（中英比例启发式+价格表快照） | `python tools/token_estimator.py --selftest` |
+| [chat_template](tools/chat_template.py) | 消息列表 → 各家 prompt 模板渲染（ChatML/Llama3/Alpaca） | `python tools/chat_template.py --selftest` |
 
 ## 设计约定
 
