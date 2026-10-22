@@ -41,6 +41,7 @@ python tools/<name>.py --selftest  # 跑内置自测
 | [password_entropy](tools/password_entropy.py) | 密码强度/熵估算：字符集空间 + Shannon + 弱模式惩罚（离线） | `python tools/password_entropy.py --selftest` |
 | [base64_url_codec](tools/base64_url_codec.py) | Base64 / percent 编解码：标准/URL-safe/无填充变体，严格校验拒绝非规范编码 | `python tools/base64_url_codec.py --selftest` |
 | [csv_json_convert](tools/csv_json_convert.py) | CSV ↔ JSON/JSONL 互转：类型推断、嵌套值走 JSON 单元格、坏行报行号 | `python tools/csv_json_convert.py --selftest` |
+| [token_bucket](tools/token_bucket.py) | 令牌桶限流：突发友好，clock/sleep 可注入（离线确定性测试） | `python tools/token_bucket.py --selftest` |
 
 ## 设计约定
 
