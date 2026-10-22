@@ -56,6 +56,7 @@ python tools/<name>.py --selftest  # 跑内置自测
 | [resample](tools/resample.py) | 时间序列桶聚合：左闭右开窗口的 sum/mean/min/max/count + OHLC | `python tools/resample.py --selftest` |
 | [simhash](tools/simhash.py) | SimHash 近重复指纹：64 位符号投票 + 海明距离判重（与 minhash 配对） | `python tools/simhash.py --selftest` |
 | [weighted_sample](tools/weighted_sample.py) | 加权抽样：放回轮盘 + 不放回 Efraimidis–Spirakis，rng 注入全确定 | `python tools/weighted_sample.py --selftest` |
+| [quantile](tools/quantile.py) | 分位数：精确线性插值 + 流式 P²（O(1) 内存，5 标记抛物线调整） | `python tools/quantile.py --selftest` |
 
 ## 设计约定
 
