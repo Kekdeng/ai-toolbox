@@ -50,6 +50,7 @@ python tools/<name>.py --selftest  # 跑内置自测
 | [json_schema_mini](tools/json_schema_mini.py) | JSON Schema 最小子集校验：递归 + 错误路径，多错齐报不首错即停 | `python tools/json_schema_mini.py --selftest` |
 | [cron_next](tools/cron_next.py) | cron 表达式解析与下次执行时间（5 字段，Vixie 语义含或规则） | `python tools/cron_next.py --selftest` |
 | [leaky_bucket](tools/leaky_bucket.py) | 漏桶限流：恒定流出整形下游流量，clock/sleep 可注入 | `python tools/leaky_bucket.py --selftest` |
+| [semver](tools/semver.py) | SemVer 2.0.0 解析/比较/排序/约束：先行版规则、构建元数据不参与 | `python tools/semver.py --selftest` |
 
 ## 设计约定
 
