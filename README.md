@@ -48,6 +48,7 @@ python tools/<name>.py --selftest  # 跑内置自测
 | [markdown_table](tools/markdown_table.py) | Markdown 管道表格解析/渲染：对齐识别、管道转义、往返无损 | `python tools/markdown_table.py --selftest` |
 | [sliding_window_counter](tools/sliding_window_counter.py) | 滑动窗口限流：加权双窗口平滑边界突发，clock 可注入 | `python tools/sliding_window_counter.py --selftest` |
 | [json_schema_mini](tools/json_schema_mini.py) | JSON Schema 最小子集校验：递归 + 错误路径，多错齐报不首错即停 | `python tools/json_schema_mini.py --selftest` |
+| [cron_next](tools/cron_next.py) | cron 表达式解析与下次执行时间（5 字段，Vixie 语义含或规则） | `python tools/cron_next.py --selftest` |
 
 ## 设计约定
 
