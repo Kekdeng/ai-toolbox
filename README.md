@@ -54,6 +54,7 @@ python tools/<name>.py --selftest  # 跑内置自测
 | [count_min_sketch](tools/count_min_sketch.py) | Count-Min Sketch 流式频率估计：只高估不低估、可合并、内存与基数无关 | `python tools/count_min_sketch.py --selftest` |
 | [lru_cache_ttl](tools/lru_cache_ttl.py) | LRU + TTL 缓存：容量驱逐 + 过期失效，hit/miss 计数器可观测 | `python tools/lru_cache_ttl.py --selftest` |
 | [resample](tools/resample.py) | 时间序列桶聚合：左闭右开窗口的 sum/mean/min/max/count + OHLC | `python tools/resample.py --selftest` |
+| [simhash](tools/simhash.py) | SimHash 近重复指纹：64 位符号投票 + 海明距离判重（与 minhash 配对） | `python tools/simhash.py --selftest` |
 
 ## 设计约定
 
