@@ -45,6 +45,7 @@ python tools/<name>.py --selftest  # 跑内置自测
 | [text_cluster](tools/text_cluster.py) | 零模型文本聚类：字符 n-gram Jaccard + 阈值贪心领袖 + 代表元（确定性） | `python tools/text_cluster.py --selftest` |
 | [context_budget](tools/context_budget.py) | Prompt 预算装填：按优先级塞块、可截断降级（带下限）、用量可审计 | `python tools/context_budget.py --selftest` |
 | [bloom_filter](tools/bloom_filter.py) | 布隆过滤器：可误报零漏报的成员判断，容量/误报率预算公式 | `python tools/bloom_filter.py --selftest` |
+| [markdown_table](tools/markdown_table.py) | Markdown 管道表格解析/渲染：对齐识别、管道转义、往返无损 | `python tools/markdown_table.py --selftest` |
 
 ## 设计约定
 
