@@ -43,6 +43,7 @@ python tools/<name>.py --selftest  # 跑内置自测
 | [csv_json_convert](tools/csv_json_convert.py) | CSV ↔ JSON/JSONL 互转：类型推断、嵌套值走 JSON 单元格、坏行报行号 | `python tools/csv_json_convert.py --selftest` |
 | [token_bucket](tools/token_bucket.py) | 令牌桶限流：突发友好，clock/sleep 可注入（离线确定性测试） | `python tools/token_bucket.py --selftest` |
 | [text_cluster](tools/text_cluster.py) | 零模型文本聚类：字符 n-gram Jaccard + 阈值贪心领袖 + 代表元（确定性） | `python tools/text_cluster.py --selftest` |
+| [context_budget](tools/context_budget.py) | Prompt 预算装填：按优先级塞块、可截断降级（带下限）、用量可审计 | `python tools/context_budget.py --selftest` |
 
 ## 设计约定
 
