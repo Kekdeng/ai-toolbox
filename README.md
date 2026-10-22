@@ -63,6 +63,7 @@ python tools/<name>.py --selftest  # 跑内置自测
 | [url_ops](tools/url_ops.py) | URL 工具箱：解析/查询参数增删改/相对链接合并（保序保重复键） | `python tools/url_ops.py --selftest` |
 | [metrics](tools/metrics.py) | 进程内指标：计数器/仪表/滑动窗口速率，clock 可注入读时裁剪 | `python tools/metrics.py --selftest` |
 | [dotenv](tools/dotenv.py) | .env 解析/`${VAR}` 展开/格式化往返（注释/引号/转义/export 前缀） | `python tools/dotenv.py --selftest` |
+| [line_diff](tools/line_diff.py) | 行级 diff：LCS 对齐 + 紧凑补丁 apply 往返无损（不符宁可失败） | `python tools/line_diff.py --selftest` |
 
 ## 设计约定
 
