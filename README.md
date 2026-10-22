@@ -61,6 +61,7 @@ python tools/<name>.py --selftest  # 跑内置自测
 | [histogram](tools/histogram.py) | 频数直方图：Freedman–Diaconis 定宽（Sturges 回退）+ ASCII 渲染 | `python tools/histogram.py --selftest` |
 | [fuzzy_match](tools/fuzzy_match.py) | 字符串模糊匹配：归一化相似度 + 阈值排名（同分稳定，CJK 按字符） | `python tools/fuzzy_match.py --selftest` |
 | [url_ops](tools/url_ops.py) | URL 工具箱：解析/查询参数增删改/相对链接合并（保序保重复键） | `python tools/url_ops.py --selftest` |
+| [metrics](tools/metrics.py) | 进程内指标：计数器/仪表/滑动窗口速率，clock 可注入读时裁剪 | `python tools/metrics.py --selftest` |
 
 ## 设计约定
 
