@@ -59,6 +59,7 @@ python tools/<name>.py --selftest  # 跑内置自测
 | [quantile](tools/quantile.py) | 分位数：精确线性插值 + 流式 P²（O(1) 内存，5 标记抛物线调整） | `python tools/quantile.py --selftest` |
 | [csv_sniffer](tools/csv_sniffer.py) | CSV 方言探测：分隔符/引号字符识别（引号感知计数 + 解析验证两级） | `python tools/csv_sniffer.py --selftest` |
 | [histogram](tools/histogram.py) | 频数直方图：Freedman–Diaconis 定宽（Sturges 回退）+ ASCII 渲染 | `python tools/histogram.py --selftest` |
+| [fuzzy_match](tools/fuzzy_match.py) | 字符串模糊匹配：归一化相似度 + 阈值排名（同分稳定，CJK 按字符） | `python tools/fuzzy_match.py --selftest` |
 
 ## 设计约定
 
