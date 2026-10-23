@@ -74,6 +74,7 @@ python tools/<name>.py --selftest  # 跑内置自测
 | [set_expr](tools/set_expr.py) | 布尔查询：AND/OR/NOT/括号词集求值（NOT>AND>OR，隐式 AND，整词识别） | `python tools/set_expr.py --selftest` |
 | [csv_pipeline](tools/csv_pipeline.py) | 表格一键读取：探方言 → 解析 → 列级类型推断（缺值 None，混型退化） | `python tools/csv_pipeline.py --selftest` |
 | [xpath_mini](tools/xpath_mini.py) | XPath 最小子集：/ 与 // 轴、通配、1 基下标与属性谓词（按父计数，文档序输出） | `python tools/xpath_mini.py --selftest` |
+| [human_bytes](tools/human_bytes.py) | 字节数人性化/解析：1.5 GiB ↔ 1610612736，IEC/SI/Unix 裸字母三套单位约定说清 | `python tools/human_bytes.py --selftest` |
 
 ## 设计约定
 
