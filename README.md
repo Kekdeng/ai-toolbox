@@ -77,6 +77,7 @@ python tools/<name>.py --selftest  # 跑内置自测
 | [human_bytes](tools/human_bytes.py) | 字节数人性化/解析：1.5 GiB ↔ 1610612736，IEC/SI/Unix 裸字母三套单位约定说清 | `python tools/human_bytes.py --selftest` |
 | [ring_buffer](tools/ring_buffer.py) | 固定容量环形缓冲：满覆盖最旧并返回被覆盖者，丢弃可观测，push/pop O(1) | `python tools/ring_buffer.py --selftest` |
 | [duration_fmt](tools/duration_fmt.py) | 时长格式化/解析：1h2m3s ↔ 3661.0，紧凑与 HH:MM:SS 双风格，单位降序校验 | `python tools/duration_fmt.py --selftest` |
+| [priority_queue](tools/priority_queue.py) | 稳定优先队列：手写二叉最小堆，同优先级 FIFO，元素无需可比较 | `python tools/priority_queue.py --selftest` |
 
 ## 设计约定
 
