@@ -71,6 +71,7 @@ python tools/<name>.py --selftest  # 跑内置自测
 | [date_range](tools/date_range.py) | 日期区间：闭区间解析/迭代/按 n 天分块/交集（含首尾，闰年锁定） | `python tools/date_range.py --selftest` |
 | [state_machine](tools/state_machine.py) | 简单状态机：转移表驱动，构造期全量校验，trace 可回放断言 | `python tools/state_machine.py --selftest` |
 | [ini_parser](tools/ini_parser.py) | INI 解析：分节/双分隔符/引号剥离 + as_int/as_float/as_bool 助手 | `python tools/ini_parser.py --selftest` |
+| [set_expr](tools/set_expr.py) | 布尔查询：AND/OR/NOT/括号词集求值（NOT>AND>OR，隐式 AND，整词识别） | `python tools/set_expr.py --selftest` |
 
 ## 设计约定
 
