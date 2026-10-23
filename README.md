@@ -65,6 +65,7 @@ python tools/<name>.py --selftest  # 跑内置自测
 | [dotenv](tools/dotenv.py) | .env 解析/`${VAR}` 展开/格式化往返（注释/引号/转义/export 前缀） | `python tools/dotenv.py --selftest` |
 | [line_diff](tools/line_diff.py) | 行级 diff：LCS 对齐 + 紧凑补丁 apply 往返无损（不符宁可失败） | `python tools/line_diff.py --selftest` |
 | [template_mini](tools/template_mini.py) | 迷你文本模板：变量/点路径/if-else/for（严格缺失报错，嵌套作用域） | `python tools/template_mini.py --selftest` |
+| [json_pointer](tools/json_pointer.py) | JSON Pointer（RFC 6901）：get/add/delete，~0~1 转义、数组语义、官方向量自测 | `python tools/json_pointer.py --selftest` |
 
 ## 设计约定
 
