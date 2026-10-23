@@ -72,6 +72,7 @@ python tools/<name>.py --selftest  # 跑内置自测
 | [state_machine](tools/state_machine.py) | 简单状态机：转移表驱动，构造期全量校验，trace 可回放断言 | `python tools/state_machine.py --selftest` |
 | [ini_parser](tools/ini_parser.py) | INI 解析：分节/双分隔符/引号剥离 + as_int/as_float/as_bool 助手 | `python tools/ini_parser.py --selftest` |
 | [set_expr](tools/set_expr.py) | 布尔查询：AND/OR/NOT/括号词集求值（NOT>AND>OR，隐式 AND，整词识别） | `python tools/set_expr.py --selftest` |
+| [csv_pipeline](tools/csv_pipeline.py) | 表格一键读取：探方言 → 解析 → 列级类型推断（缺值 None，混型退化） | `python tools/csv_pipeline.py --selftest` |
 
 ## 设计约定
 
