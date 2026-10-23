@@ -70,6 +70,7 @@ python tools/<name>.py --selftest  # 跑内置自测
 | [toml_mini](tools/toml_mini.py) | TOML 最小子集：分节/五种值/单行数组，注释感知引号，往返无损 | `python tools/toml_mini.py --selftest` |
 | [date_range](tools/date_range.py) | 日期区间：闭区间解析/迭代/按 n 天分块/交集（含首尾，闰年锁定） | `python tools/date_range.py --selftest` |
 | [state_machine](tools/state_machine.py) | 简单状态机：转移表驱动，构造期全量校验，trace 可回放断言 | `python tools/state_machine.py --selftest` |
+| [ini_parser](tools/ini_parser.py) | INI 解析：分节/双分隔符/引号剥离 + as_int/as_float/as_bool 助手 | `python tools/ini_parser.py --selftest` |
 
 ## 设计约定
 
