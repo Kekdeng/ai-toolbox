@@ -67,6 +67,7 @@ python tools/<name>.py --selftest  # 跑内置自测
 | [template_mini](tools/template_mini.py) | 迷你文本模板：变量/点路径/if-else/for（严格缺失报错，嵌套作用域） | `python tools/template_mini.py --selftest` |
 | [json_pointer](tools/json_pointer.py) | JSON Pointer（RFC 6901）：get/add/delete，~0~1 转义、数组语义、官方向量自测 | `python tools/json_pointer.py --selftest` |
 | [text_table](tools/text_table.py) | 文本表格渲染：自动列宽、CJK 宽度感知、数值列自动右对齐 | `python tools/text_table.py --selftest` |
+| [toml_mini](tools/toml_mini.py) | TOML 最小子集：分节/五种值/单行数组，注释感知引号，往返无损 | `python tools/toml_mini.py --selftest` |
 
 ## 设计约定
 
